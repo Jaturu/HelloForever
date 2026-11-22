@@ -1,0 +1,8 @@
+## Interface: 120105, 16001
+## Title: HelloForever
+## Notes: Hello-world test addon for the dev pipeline.
+## Author: Jaturu
+## Version: @project-version@
+## SavedVariables: HelloForeverDB
+
+HelloForever.lua
