@@ -37,6 +37,13 @@ SlashCmdList.HELLOFOREVER = function(msg)
 		return
 	end
 	local version, build, _, interface = GetBuildInfo()
-	Log("%s-%s | client %s (build %s) | interface %d | project id %s",
-		UnitName("player"), GetRealmName(), version, build, interface, tostring(WOW_PROJECT_ID))
+	Log(
+		"%s-%s | client %s (build %s) | interface %d | project id %s",
+		UnitName("player"),
+		GetRealmName(),
+		version,
+		build,
+		interface,
+		tostring(WOW_PROJECT_ID)
+	)
 end

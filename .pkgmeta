@@ -1,0 +1,15 @@
+package-as: HelloForever
+
+ignore:
+  - .github
+  - .vscode
+  - scripts
+  - spec
+  - .busted
+  - .editorconfig
+  - .gitattributes
+  - .luacheckrc
+  - .luals-check.json
+  - .stylua.toml
+  - Makefile
+  - README.md
